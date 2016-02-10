@@ -1,1 +1,6 @@
 auth_cred.js
+selenium-server-standalone-*
+chromedriver
+chromedriver-*
+phantomjsdriver.log
+selenium-debug.log
