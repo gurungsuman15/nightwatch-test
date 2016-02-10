@@ -1,0 +1,130 @@
+13:30:41.164 INFO - Launching a standalone Selenium Server
+Setting system property webdriver.chrome.driver to /Users/sumangurung/Downloads/chromedriver
+13:30:41.570 INFO - Java: Oracle Corporation 25.60-b23
+13:30:41.571 INFO - OS: Mac OS X 10.11.3 x86_64
+13:30:41.720 INFO - v2.49.0, with Core v2.49.0. Built from revision 365eeb4
+13:30:42.195 INFO - Driver provider org.openqa.selenium.ie.InternetExplorerDriver registration is skipped:
+registration capabilities Capabilities [{ensureCleanSession=true, browserName=internet explorer, version=, platform=WINDOWS}] does not match the current platform MAC
+13:30:42.195 INFO - Driver provider org.openqa.selenium.edge.EdgeDriver registration is skipped:
+registration capabilities Capabilities [{browserName=MicrosoftEdge, version=, platform=WINDOWS}] does not match the current platform MAC
+13:30:42.195 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+13:30:42.196 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+13:30:42.891 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+13:30:42.892 INFO - Selenium Server is up and running
+13:30:44.593 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Add Lead, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
+13:30:44.712 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Add Lead, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
+13:30:44.955 INFO - executable: /usr/local/bin/phantomjs
+13:30:44.955 INFO - port: 21697
+13:30:44.955 INFO - arguments: [--webdriver=21697, --webdriver-logfile=/Users/sumangurung/nightwatch_test/phantomjsdriver.log]
+13:30:44.956 INFO - environment: {}
+[INFO  - 2016-02-10T07:45:52.258Z] GhostDriver - Main - running on port 21697
+[INFO  - 2016-02-10T07:45:52.807Z] Session [4f741820-cfca-11e5-9332-43a04be6055d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-10T07:45:52.807Z] Session [4f741820-cfca-11e5-9332-43a04be6055d] - page.customHeaders:  - {}
+[INFO  - 2016-02-10T07:45:52.807Z] Session [4f741820-cfca-11e5-9332-43a04be6055d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-10T07:45:52.808Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 4f741820-cfca-11e5-9332-43a04be6055d
+13:30:53.015 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Add Lead, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
+13:30:53.042 INFO - Executing: [get: http://cummings.localhost])
+13:31:02.284 INFO - Done: [get: http://cummings.localhost]
+13:31:02.297 INFO - Executing: [find elements: By.cssSelector: input[name=identity]])
+13:31:02.430 INFO - Done: [find elements: By.cssSelector: input[name=identity]]
+13:31:02.440 INFO - Executing: [find element: By.cssSelector: input[name=identity]])
+13:31:02.486 INFO - Done: [find element: By.cssSelector: input[name=identity]]
+13:31:02.494 INFO - Executing: [send keys: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: input[name=identity]], [c, r, g, _, i, m, p, o, r, t]])
+13:31:03.093 INFO - Done: [send keys: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: input[name=identity]], [c, r, g, _, i, m, p, o, r, t]]
+13:31:03.102 INFO - Executing: [find elements: By.cssSelector: input[name=credential]])
+13:31:03.119 INFO - Done: [find elements: By.cssSelector: input[name=credential]]
+13:31:03.125 INFO - Executing: [find element: By.cssSelector: input[name=credential]])
+13:31:03.142 INFO - Done: [find element: By.cssSelector: input[name=credential]]
+13:31:03.148 INFO - Executing: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: input[name=credential]], [b, e, @, c, 0, n, 4, 3, !]])
+13:31:03.254 INFO - Done: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: input[name=credential]], [b, e, @, c, 0, n, 4, 3, !]]
+13:31:03.259 INFO - Executing: [find element: By.cssSelector: button[name=submit]])
+13:31:03.294 INFO - Done: [find element: By.cssSelector: button[name=submit]]
+13:31:03.300 INFO - Executing: [click: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: button[name=submit]]])
+13:31:11.773 INFO - Done: [click: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: button[name=submit]]]
+13:31:11.784 INFO - Executing: [find element: By.cssSelector: .addnew > a])
+13:31:11.825 INFO - Done: [find element: By.cssSelector: .addnew > a]
+13:31:11.831 INFO - Executing: [click: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: .addnew > a]])
+13:31:12.163 INFO - Done: [click: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (4f741820-cfca-11e5-9332-43a04be6055d)] -> css selector: .addnew > a]]
+13:31:12.168 INFO - Executing: [get current url])
+13:31:12.207 INFO - Done: [get current url]
+13:31:12.215 INFO - Executing: [delete session: 36cb0655-99af-4122-a7ce-16e733262ad4])
+[INFO  - 2016-02-10T07:46:12.483Z] ShutdownReqHand - _handle - About to shutdown
+13:31:13.616 INFO - Done: [delete session: 36cb0655-99af-4122-a7ce-16e733262ad4]
+13:31:13.811 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Lead Dashboard, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
+13:31:13.812 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Lead Dashboard, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
+13:31:13.814 INFO - executable: /usr/local/bin/phantomjs
+13:31:13.814 INFO - port: 17498
+13:31:13.814 INFO - arguments: [--webdriver=17498, --webdriver-logfile=/Users/sumangurung/nightwatch_test/phantomjsdriver.log]
+13:31:13.814 INFO - environment: {}
+[INFO  - 2016-02-10T07:46:15.141Z] GhostDriver - Main - running on port 17498
+[INFO  - 2016-02-10T07:46:15.445Z] Session [5cf239f0-cfca-11e5-a97c-c76ee7f03042] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-10T07:46:15.445Z] Session [5cf239f0-cfca-11e5-a97c-c76ee7f03042] - page.customHeaders:  - {}
+[INFO  - 2016-02-10T07:46:15.445Z] Session [5cf239f0-cfca-11e5-a97c-c76ee7f03042] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-10T07:46:15.445Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 5cf239f0-cfca-11e5-a97c-c76ee7f03042
+13:31:15.449 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Lead Dashboard, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
+13:31:15.460 INFO - Executing: [get: http://cummings.localhost])
+13:31:16.480 INFO - Done: [get: http://cummings.localhost]
+13:31:16.488 INFO - Executing: [find elements: By.cssSelector: input[name=identity]])
+13:31:16.509 INFO - Done: [find elements: By.cssSelector: input[name=identity]]
+13:31:16.516 INFO - Executing: [find element: By.cssSelector: input[name=identity]])
+13:31:16.535 INFO - Done: [find element: By.cssSelector: input[name=identity]]
+13:31:16.540 INFO - Executing: [send keys: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (5cf239f0-cfca-11e5-a97c-c76ee7f03042)] -> css selector: input[name=identity]], [c, r, g, _, i, m, p, o, r, t]])
+13:31:16.598 INFO - Done: [send keys: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (5cf239f0-cfca-11e5-a97c-c76ee7f03042)] -> css selector: input[name=identity]], [c, r, g, _, i, m, p, o, r, t]]
+13:31:16.603 INFO - Executing: [find elements: By.cssSelector: input[name=credential]])
+13:31:16.621 INFO - Done: [find elements: By.cssSelector: input[name=credential]]
+13:31:16.628 INFO - Executing: [find element: By.cssSelector: input[name=credential]])
+13:31:16.645 INFO - Done: [find element: By.cssSelector: input[name=credential]]
+13:31:16.652 INFO - Executing: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (5cf239f0-cfca-11e5-a97c-c76ee7f03042)] -> css selector: input[name=credential]], [b, e, @, c, 0, n, 4, 3, !]])
+13:31:16.722 INFO - Done: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (5cf239f0-cfca-11e5-a97c-c76ee7f03042)] -> css selector: input[name=credential]], [b, e, @, c, 0, n, 4, 3, !]]
+13:31:16.727 INFO - Executing: [find element: By.cssSelector: button[name=submit]])
+13:31:16.746 INFO - Done: [find element: By.cssSelector: button[name=submit]]
+13:31:16.751 INFO - Executing: [click: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (5cf239f0-cfca-11e5-a97c-c76ee7f03042)] -> css selector: button[name=submit]]])
+13:31:20.772 INFO - Done: [click: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (5cf239f0-cfca-11e5-a97c-c76ee7f03042)] -> css selector: button[name=submit]]]
+13:31:20.782 INFO - Executing: [get title])
+13:31:20.788 INFO - Done: [get title]
+13:31:20.803 INFO - Executing: [find elements: By.cssSelector: .dashboard])
+13:31:20.825 INFO - Done: [find elements: By.cssSelector: .dashboard]
+13:31:20.833 INFO - Executing: [get current url])
+13:31:20.845 INFO - Done: [get current url]
+13:31:20.854 INFO - Executing: [delete session: d3c58caf-a4ec-46f8-b2ca-d99d17faed95])
+[INFO  - 2016-02-10T07:46:20.863Z] ShutdownReqHand - _handle - About to shutdown
+13:31:21.931 INFO - Done: [delete session: d3c58caf-a4ec-46f8-b2ca-d99d17faed95]
+13:31:22.069 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Search, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]])
+13:31:22.070 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Search, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]
+13:31:22.071 INFO - executable: /usr/local/bin/phantomjs
+13:31:22.072 INFO - port: 5543
+13:31:22.072 INFO - arguments: [--webdriver=5543, --webdriver-logfile=/Users/sumangurung/nightwatch_test/phantomjsdriver.log]
+13:31:22.072 INFO - environment: {}
+[INFO  - 2016-02-10T07:46:23.471Z] GhostDriver - Main - running on port 5543
+[INFO  - 2016-02-10T07:46:23.696Z] Session [61dd3aa0-cfca-11e5-b103-b16144004df5] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1","webSecurityEnabled":true}
+[INFO  - 2016-02-10T07:46:23.697Z] Session [61dd3aa0-cfca-11e5-b103-b16144004df5] - page.customHeaders:  - {}
+[INFO  - 2016-02-10T07:46:23.697Z] Session [61dd3aa0-cfca-11e5-b103-b16144004df5] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-10.11 (El Capitan)-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2016-02-10T07:46:23.697Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 61dd3aa0-cfca-11e5-b103-b16144004df5
+13:31:23.700 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Search, browserName=phantomjs, javascriptEnabled=true, platform=ANY}]]
+13:31:23.711 INFO - Executing: [get: http://cummings.localhost])
+13:31:24.439 INFO - Done: [get: http://cummings.localhost]
+13:31:24.444 INFO - Executing: [find elements: By.cssSelector: input[name=identity]])
+13:31:24.463 INFO - Done: [find elements: By.cssSelector: input[name=identity]]
+13:31:24.467 INFO - Executing: [find element: By.cssSelector: input[name=identity]])
+13:31:24.483 INFO - Done: [find element: By.cssSelector: input[name=identity]]
+13:31:24.487 INFO - Executing: [send keys: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: input[name=identity]], [c, r, g, _, i, m, p, o, r, t]])
+13:31:24.550 INFO - Done: [send keys: 0 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: input[name=identity]], [c, r, g, _, i, m, p, o, r, t]]
+13:31:24.556 INFO - Executing: [find elements: By.cssSelector: input[name=credential]])
+13:31:24.574 INFO - Done: [find elements: By.cssSelector: input[name=credential]]
+13:31:24.579 INFO - Executing: [find element: By.cssSelector: input[name=credential]])
+13:31:24.599 INFO - Done: [find element: By.cssSelector: input[name=credential]]
+13:31:24.604 INFO - Executing: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: input[name=credential]], [b, e, @, c, 0, n, 4, 3, !]])
+13:31:24.677 INFO - Done: [send keys: 1 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: input[name=credential]], [b, e, @, c, 0, n, 4, 3, !]]
+13:31:24.680 INFO - Executing: [find element: By.cssSelector: button[name=submit]])
+13:31:24.696 INFO - Done: [find element: By.cssSelector: button[name=submit]]
+13:31:24.699 INFO - Executing: [click: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: button[name=submit]]])
+13:31:28.862 INFO - Done: [click: 2 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: button[name=submit]]]
+13:31:28.867 INFO - Executing: [find element: By.cssSelector: .search > a])
+13:31:28.884 INFO - Done: [find element: By.cssSelector: .search > a]
+13:31:28.888 INFO - Executing: [click: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: .search > a]])
+13:31:28.957 INFO - Done: [click: 3 [[PhantomJSDriver: phantomjs on OS X 10.11 (61dd3aa0-cfca-11e5-b103-b16144004df5)] -> css selector: .search > a]]
+13:31:28.960 INFO - Executing: [get current url])
+13:31:28.970 INFO - Done: [get current url]
+13:31:28.975 INFO - Executing: [delete session: c048147d-5af7-410f-a8ef-2c33287bf674])
+[INFO  - 2016-02-10T07:46:28.984Z] ShutdownReqHand - _handle - About to shutdown
+13:31:30.055 INFO - Done: [delete session: c048147d-5af7-410f-a8ef-2c33287bf674]
