@@ -4,3 +4,4 @@ chromedriver
 chromedriver-*
 phantomjsdriver.log
 selenium-debug.log
+/reports
