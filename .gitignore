@@ -5,3 +5,4 @@ chromedriver-*
 phantomjsdriver.log
 selenium-debug.log
 /reports
+/node_modules
