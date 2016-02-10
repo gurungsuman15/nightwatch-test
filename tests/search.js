@@ -8,7 +8,7 @@ module.exports = {
 	client 
 	.click('.search > a')
 	.url(function(result) {
-		this.assert.equal(result.value, 'http://cummings.localhost/#/search');		
+		this.assert.equal(result.value, client.launch_url + '/#/search');		
 	})
 	.end();
 	}

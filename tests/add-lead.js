@@ -8,7 +8,7 @@ module.exports = {
 		client
 		.click('.addnew > a')
 		.url(function(result) {
-			this.assert.equal(result.value, 'http://cummings.localhost/#/add-lead');		
+			this.assert.equal(result.value, client.launch_url + '/#/add-lead');		
 		})
 		.end();
 	}

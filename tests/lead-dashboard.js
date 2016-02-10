@@ -9,7 +9,7 @@ module.exports = {
 	.assert.title('Cummings Properties LLC')
 	.waitForElementPresent('.dashboard', 5000)
 	.url(function(result) {
-		this.assert.equal(result.value,'http://cummings.localhost/#/leads');
+		this.assert.equal(result.value, client.launch_url + '/#/leads');
 	})
 	.end();
 	}
